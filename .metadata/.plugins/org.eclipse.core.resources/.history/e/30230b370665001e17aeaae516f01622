@@ -1,0 +1,5 @@
+package com.restaurant.hotel.repository;
+
+public class ratingRepository {
+
+}

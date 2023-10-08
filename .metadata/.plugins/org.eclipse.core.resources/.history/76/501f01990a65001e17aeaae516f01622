@@ -1,0 +1,5 @@
+package com.restaurant.hotel.controller;
+
+public class RatingController {
+
+}

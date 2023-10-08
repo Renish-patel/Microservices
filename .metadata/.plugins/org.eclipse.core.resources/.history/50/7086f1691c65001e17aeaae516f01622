@@ -1,0 +1,5 @@
+eureka.client.fetch-registry=true
+eureka.client.register-with-eureka=true
+eureka.instance.hostname=192.168.0.69
+spring.application.name=hotel-service
+eureka.client.service-url.defaultZone=http://[myIP@]:8787/eureka

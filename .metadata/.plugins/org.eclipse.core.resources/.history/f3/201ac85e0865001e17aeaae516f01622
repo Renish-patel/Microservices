@@ -1,0 +1,39 @@
+package com.restaurant.hotel.implement;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.restaurant.hotel.entities.Rating;
+import com.restaurant.hotel.repository.ratingRepository;
+import com.restaurant.hotel.service.ratingService;
+
+public class ratingServiceImple implements ratingService {
+
+	@Autowired
+	private ratingRepository ratingRepository ;
+	
+	@Override
+	public Rating createRating(Rating rating) {
+		return ratingRepository.save(rating);
+	}
+
+	@Override
+	public List<Rating> getallRatings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Rating> getByUserId(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Rating> getByHotelId(String hotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.restaurant.userservice.controllers;
+
+public class UserControllers {
+
+}

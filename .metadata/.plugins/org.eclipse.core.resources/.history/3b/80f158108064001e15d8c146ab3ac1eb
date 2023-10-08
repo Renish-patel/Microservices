@@ -1,0 +1,5 @@
+ackage com.restaurant.userservice;
+
+public interface DataSourceConfig {
+
+}
